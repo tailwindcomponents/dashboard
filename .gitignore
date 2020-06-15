@@ -1,0 +1,15 @@
+/build_local/
+/cache/
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Optional ignores
+# /build_staging/
+# /build_production/
+# /source/assets/build/
