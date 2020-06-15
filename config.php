@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Learn Awesome Components',
-    'description' => '',
+    'title' => 'Dashboard',
+    'description' => 'Dashboard template built with tailwindcss 🛩',
     'collections' => [],
 ];
