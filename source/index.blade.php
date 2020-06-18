@@ -1,16 +1,15 @@
 @extends('_layouts.master')
 
 @section('body')
-<h1>Hello world!</h1>
+<div class="flex h-screen bg-gray-200">
+    @include('_layouts._sidebar')
 
-<div x-data="{ open: false }">
-    <button @click="open = true">Open Dropdown</button>
+    <div class="flex-1 flex flex-col">
+        @include('_layouts._header')
 
-    <ul
-        x-show="open"
-        @click.away="open = false"
-    >
-        Dropdown Body
-    </ul>
+        <main class="flex-1 overflow-y-auto bg-gray-200">
+            <div class="container mx-auto px-6 w-full h-full"></div>
+        </main>
+    </div>
 </div>
 @endsection
