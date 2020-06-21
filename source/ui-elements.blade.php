@@ -4,11 +4,79 @@
     <h3 class="text-gray-700 text-3xl font-semibold">UI Elements</h3>
 
     <div class="mt-4">
+        <h4 class="text-gray-600">Alerts</h4>
+
+        <div class="mt-4">
+            <div class="rounded-md bg-white py-4 px-4 overflow-x-auto whitespace-no-wrap">
+                <div class="inline-flex max-w-sm w-full bg-white shadow-md rounded-lg overflow-hidden ml-3">
+                    <div class="flex justify-center items-center w-12 bg-green-500">
+                        <svg class="h-6 w-6 fill-current text-white" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM16.6667 28.3333L8.33337 20L10.6834 17.65L16.6667 23.6166L29.3167 10.9666L31.6667 13.3333L16.6667 28.3333Z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="-mx-3 py-2 px-4">
+                        <div class="mx-3">
+                            <span class="text-green-500 font-semibold">Success</span>
+                            <p class="text-gray-600 text-sm">Your account was registered!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inline-flex max-w-sm w-full bg-white shadow-md rounded-lg overflow-hidden ml-3">
+                    <div class="flex justify-center items-center w-12 bg-blue-500">
+                        <svg class="h-6 w-6 fill-current text-white" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM21.6667 28.3333H18.3334V25H21.6667V28.3333ZM21.6667 21.6666H18.3334V11.6666H21.6667V21.6666Z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="-mx-3 py-2 px-4">
+                        <div class="mx-3">
+                            <span class="text-blue-500 font-semibold">Info</span>
+                            <p class="text-gray-600 text-sm">This channel archived by owner !</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inline-flex max-w-sm w-full bg-white shadow-md rounded-lg overflow-hidden ml-3">
+                    <div class="flex justify-center items-center w-12 bg-yellow-500">
+                        <svg class="h-6 w-6 fill-current text-white" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM21.6667 28.3333H18.3334V25H21.6667V28.3333ZM21.6667 21.6666H18.3334V11.6666H21.6667V21.6666Z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="-mx-3 py-2 px-4">
+                        <div class="mx-3">
+                            <span class="text-yellow-500 font-semibold">Warning</span>
+                            <p class="text-gray-600 text-sm">Your image size is to large !</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inline-flex max-w-sm w-full bg-white shadow-md rounded-lg overflow-hidden ml-3">
+                    <div class="flex justify-center items-center w-12 bg-red-500">
+                        <svg class="h-6 w-6 fill-current text-white" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 3.36667C10.8167 3.36667 3.3667 10.8167 3.3667 20C3.3667 29.1833 10.8167 36.6333 20 36.6333C29.1834 36.6333 36.6334 29.1833 36.6334 20C36.6334 10.8167 29.1834 3.36667 20 3.36667ZM19.1334 33.3333V22.9H13.3334L21.6667 6.66667V17.1H27.25L19.1334 33.3333Z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="-mx-3 py-2 px-4">
+                        <div class="mx-3">
+                            <span class="text-red-500 font-semibold">Error</span>
+                            <p class="text-gray-600 text-sm">Your email is already used!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-8">
         <h4 class="text-gray-600">Radio Buttons</h4>
 
         <div class="mt-4">
-            <div class="flex rounded-md bg-white py-4 px-3 overflow-x-auto">
-                <label class="inline-flex items-center ml-3">
+            <div class="flex rounded-md bg-white py-4 px-4 overflow-x-auto">
+                <label class="inline-flex items-center">
                     <input type="radio" class="form-radio h-5 w-5 text-gray-600" checked><span class="ml-2 text-gray-700">label</span>
                 </label>
 
@@ -51,12 +119,12 @@
         </div>
     </div>
 
-    <div class="mt-4">
+    <div class="mt-8">
         <h4 class="text-gray-600">Checkboxes</h4>
 
         <div class="mt-4">
-            <div class="flex rounded-md bg-white py-4 px-3 overflow-x-auto">
-                <label class="inline-flex items-center ml-3">
+            <div class="flex rounded-md bg-white py-4 px-4 overflow-x-auto">
+                <label class="inline-flex items-center">
                     <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" checked><span class="ml-2 text-gray-700">label</span>
                 </label>
 
@@ -99,40 +167,63 @@
         </div>
     </div>
 
-    <div class="mt-4">
-        <h4 class="text-gray-600">Models</h4>
+    <div class="mt-8">
+        <h4 class="text-gray-600">Buttons</h4>
 
         <div class="mt-4">
-            <div class="max-w-sm w-full bg-white shadow-md rounded-md overflow-hidden border">
-                <form>
-                    <div class="flex justify-between items-center px-5 py-3 text-gray-700 border-b">
-                        <h3 class="text-sm">Add Category</h3>
-                        <button>
-                            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                            </svg>
-                        </button>
-                    </div>
+            <div class="flex rounded-md bg-white py-4 px-4 overflow-x-auto">
+                <button class="px-6 py-3 bg-gray-600 rounded-md text-white font-medium tracking-wide hover:bg-gray-500">Button</button>
+                <button class="px-6 py-3 bg-red-600 rounded-md text-white font-medium tracking-wide hover:bg-red-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-orange-600 rounded-md text-white font-medium tracking-wide hover:bg-orange-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-yellow-600 rounded-md text-white font-medium tracking-wide hover:bg-yellow-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-green-600 rounded-md text-white font-medium tracking-wide hover:bg-green-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-teal-600 rounded-md text-white font-medium tracking-wide hover:bg-teal-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-blue-600 rounded-md text-white font-medium tracking-wide hover:bg-blue-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-indigo-600 rounded-md text-white font-medium tracking-wide hover:bg-indigo-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-purple-600 rounded-md text-white font-medium tracking-wide hover:bg-purple-500 ml-3">Button</button>
+                <button class="px-6 py-3 bg-pink-600 rounded-md text-white font-medium tracking-wide hover:bg-pink-500 ml-3">Button</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-8">
+        <h4 class="text-gray-600">Buttons</h4>
+
+        <div class="mt-4">
+            <div class="flex rounded-md bg-white py-4 px-4 overflow-x-auto">
+                <ul class="flex rounded mr-4">
+                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 ml-0 rounded-l hover:bg-gray-200"><a class="page-link" href="#">Previous</a></li>
+                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 hover:bg-gray-200"><a class="page-link" href="#">1</a></li>
+                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 hover:bg-gray-200"><a class="page-link" href="#">2</a></li>
+                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 hover:bg-gray-200"><a class="page-link" href="#">3</a></li>
+                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 rounded-r hover:bg-gray-200"><a class="page-link" href="#">Next</a></li>
+                </ul>
+
+                <ul class="flex">
+                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-500 rounded-lg">
+                        <a href="#" class="flex items-center font-bold cursor-not-allowed">
+                            <span class="mx-1">previous</span>
+                        </a>
+                    </li>
+
+                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+                        <a href="#" class="font-bold">1</a>
+                    </li>
+
+                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+                        <a href="#" class="font-bold">2</a>
+                    </li>
+
+                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+                        <a href="#" class="font-bold">3</a>
+                    </li>
                     
-                    <div class="px-5 py-6 bg-gray-200 text-gray-700 border-b">
-                        <label class="text-xs">Name</label>
-
-                        <div class="mt-2 relative rounded-md shadow-sm">
-                            <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-600">
-                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
-                                </svg>
-                            </span>
-
-                            <input type="text" class="form-input px-12 py-2 appearance-none rounded-md focus:border-indigo-600">
-                        </div>
-                    </div>
-
-                    <div class="flex justify-between items-center px-5 py-3">
-                        <button class="px-3 py-1 text-gray-700 text-sm rounded-md bg-gray-200 hover:bg-gray-300 focus:outline-none">Cancel</button>
-                        <button class="px-3 py-1 bg-indigo-600 text-white rounded-md text-sm hover:bg-indigo-500 focus:outline-none">Save</button>
-                    </div>
-                </form>
+                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+                        <a href="#" class="flex items-center font-bold">
+                            <span class="mx-1">Next</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
