@@ -1,5 +1,5 @@
 [build]
 
-command = "npm run production"
-publish = "build_production"
+command = "npm run dev"
+publish = "build_local"
 environment = { PHP_VERSION = "7.2" }
