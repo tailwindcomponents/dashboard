@@ -19,6 +19,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
-        "alpinejs": "^2.3.3"
+        "alpinejs": "^2.3.3",
+        "chart.js": "^2.9.3"
     }
 }

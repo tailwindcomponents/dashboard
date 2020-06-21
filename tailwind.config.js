@@ -3,7 +3,11 @@ module.exports = {
     './source/*.blade.php'
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '96': '24rem',
+      },
+    },
   },
   variants: {},
   plugins: [
