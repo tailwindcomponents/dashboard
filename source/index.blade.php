@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-    <h3 class="text-gray-700 text-3xl font-semibold">Overview</h3>
+    <h3 class="text-gray-700 text-3xl font-medium">Dashboard</h3>
 
     <div class="mt-4">
         <div class="flex flex-wrap -mx-6">
@@ -58,6 +58,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="mt-8">
+        
     </div>
 
     <div class="flex flex-col mt-8">

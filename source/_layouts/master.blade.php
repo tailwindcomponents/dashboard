@@ -16,7 +16,7 @@
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body>
-        <div x-data="{ sidebarOpen: false }" class="flex h-screen bg-gray-200">
+        <div x-data="{ sidebarOpen: false }" class="flex h-screen bg-gray-200 font-roboto">
             @include('_layouts.sidebar')
             
             <div class="flex-1 flex flex-col overflow-hidden">

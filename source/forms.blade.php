@@ -28,7 +28,7 @@
                                 </svg>
                             </span>
 
-                            <input type="text" class="form-input px-12 py-2 appearance-none rounded-md focus:border-indigo-600">
+                            <input type="text" class="form-input w-full px-12 py-2 appearance-none rounded-md focus:border-indigo-600">
                         </div>
                     </div>
 
@@ -72,7 +72,7 @@
                     </div>
 
                     <div class="flex justify-end mt-4">
-                        <button class="px-4 py-2 bg-gray-800 text-gray-200 rounded hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Save</button>
+                        <button class="px-4 py-2 bg-gray-800 text-gray-200 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">Save</button>
                     </div>
                 </form>
             </div>

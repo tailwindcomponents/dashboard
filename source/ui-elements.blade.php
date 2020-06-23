@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-    <h3 class="text-gray-700 text-3xl font-semibold">UI Elements</h3>
+    <h3 class="text-gray-700 text-3xl font-medium">UI Elements</h3>
 
     <div class="mt-4">
         <h4 class="text-gray-600">Alerts</h4>
@@ -187,43 +187,17 @@
     </div>
 
     <div class="mt-8">
-        <h4 class="text-gray-600">Buttons</h4>
+        <h4 class="text-gray-600">Pagnations</h4>
 
         <div class="mt-4">
             <div class="flex rounded-md bg-white py-4 px-4 overflow-x-auto">
-                <ul class="flex rounded mr-4">
-                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 ml-0 rounded-l hover:bg-gray-200"><a class="page-link" href="#">Previous</a></li>
-                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 hover:bg-gray-200"><a class="page-link" href="#">1</a></li>
-                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 hover:bg-gray-200"><a class="page-link" href="#">2</a></li>
-                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 border-r-0 hover:bg-gray-200"><a class="page-link" href="#">3</a></li>
-                    <li class="relative block py-2 px-3 leading-tight bg-white border border-gray-300 text-blue-700 rounded-r hover:bg-gray-200"><a class="page-link" href="#">Next</a></li>
-                </ul>
-
-                <ul class="flex">
-                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-500 rounded-lg">
-                        <a href="#" class="flex items-center font-bold cursor-not-allowed">
-                            <span class="mx-1">previous</span>
-                        </a>
-                    </li>
-
-                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
-                        <a href="#" class="font-bold">1</a>
-                    </li>
-
-                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
-                        <a href="#" class="font-bold">2</a>
-                    </li>
-
-                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
-                        <a href="#" class="font-bold">3</a>
-                    </li>
-                    
-                    <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
-                        <a href="#" class="flex items-center font-bold">
-                            <span class="mx-1">Next</span>
-                        </a>
-                    </li>
-                </ul>
+                <div class="flex rounded mr-4">
+                    <a href="#" class="py-2 px-3 leading-tight bg-white border border-gray-200 text-blue-700 border-r-0 ml-0 rounded-l hover:bg-indigo-500 hover:text-white"><span>Previous</a></a>
+                    <a href="#" class="py-2 px-3 leading-tight bg-white border border-gray-200 text-blue-700 border-r-0 hover:bg-indigo-500 hover:text-white"><span>1</span></a>
+                    <a href="#" class="py-2 px-3 leading-tight bg-white border border-gray-200 text-blue-700 border-r-0 hover:bg-indigo-500 hover:text-white"><span>2</span></a>
+                    <a href="#" class="py-2 px-3 leading-tight bg-white border border-gray-200 text-blue-700 border-r-0 hover:bg-indigo-500 hover:text-white"><span>3</span></a>
+                    <a href="#" class="py-2 px-3 leading-tight bg-white border border-gray-200 text-blue-700 rounded-r hover:bg-indigo-500 hover:text-white"><span>Next</span></a>
+                </div>
             </div>
         </div>
     </div>

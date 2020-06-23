@@ -19,7 +19,7 @@
                 <path d="M12 2.25195C14.8113 2.97552 17.0245 5.18877 17.748 8.00004H12V2.25195Z" fill="currentColor"/>
             </svg>
 
-            <span class="mx-4">Overview</span>
+            <span class="mx-4">Dashboard</span>
         </a>
 
         <a class="flex items-center mt-4 py-2 px-6 block border-l-4 border-gray-900 text-gray-500 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100" href="/ui-elements">

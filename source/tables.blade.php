@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-    <h3 class="text-gray-700 text-3xl font-semibold">Tables</h3>
+    <h3 class="text-gray-700 text-3xl font-medium">Tables</h3>
 
     <div class="mt-4">
         <h4 class="text-gray-600">Simple Table</h4>
