@@ -14,6 +14,26 @@
 
 Live [Demo](https://dashboard-tailwindcomponents.netlify.app/) 
 
+Login
+
+<img src="screenshots/login.png">
+
+Dashboard
+
+<img src="screenshots/dashboard.png">
+
+UI Elements
+
+<img src="screenshots/ui-elements.png">
+
+Tables
+
+<img src="screenshots/tables.png">
+
+Forms
+
+<img src="screenshots/forms.png">
+
 ## Resources
 - [Jigsaw](https://jigsaw.tighten.co)
 - [Tailwindcss](https://tailwindcss.com)
