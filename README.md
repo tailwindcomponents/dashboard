@@ -1,10 +1,10 @@
 # Dashboard Template
 
-<a href="https://github.com/tailwindcomponents/dashboard-template/stargazers">
-    <img src="https://img.shields.io/github/stars/tailwindcomponents/dashboard-template">
-</a>
 <a href="https://github.com/tailwindcomponents/dashboard-template/blob/master/LICENSE.md">
     <img src="https://img.shields.io/github/license/tailwindcomponents/dashboard-template">
+</a>
+<a href="https://github.com/tailwindcomponents/dashboard-template/stargazers">
+    <img src="https://img.shields.io/github/stars/tailwindcomponents/dashboard-template">
 </a>
 <a href="https://twitter.com/TwComponents">
     <img src="https://img.shields.io/twitter/url?label=Tailwindcomponents&style=social&url=https%3A%2F%2Ftwitter.com%2FTwComponents">
