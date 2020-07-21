@@ -14,6 +14,14 @@
 
 Live [Demo](https://dashboard-tailwindcomponents.netlify.app/) 
 
+## Resources
+- [Jigsaw](https://jigsaw.tighten.co)
+- [Tailwindcss](https://tailwindcss.com)
+- [AlpineJS](https://github.com/alpinejs/alpine)
+- [Heroicons](https://heroicons.dev)
+
+## Screenshots
+
 Login
 
 <img src="screenshots/login.png">
@@ -33,12 +41,6 @@ Tables
 Forms
 
 <img src="screenshots/forms.png">
-
-## Resources
-- [Jigsaw](https://jigsaw.tighten.co)
-- [Tailwindcss](https://tailwindcss.com)
-- [AlpineJS](https://github.com/alpinejs/alpine)
-- [Heroicons](https://heroicons.dev)
 
 ## Project setup
 ```
