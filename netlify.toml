@@ -1,5 +1,5 @@
 [build]
 
 command = "npm run prod"
-publish = "build_local"
+publish = "build_production"
 environment = { PHP_VERSION = "7.2" }
